@@ -3,26 +3,40 @@
   "algorithm": "SHA256withECDSA",
   "payload": {
     "channel": "stable",
-    "publishedAt": "2026-11-08T23:02:17.000Z",
-    "versionName": "1.1.7",
-    "versionCode": 9,
+    "publishedAt": "2026-11-08T23:46:31.278Z",
+    "versionName": "1.2.0",
+    "versionCode": 10,
     "minimumSupportedVersionCode": 4,
     "required": false,
-    "notes": "Bienvenida guiada única para crear o confirmar el perfil antes de comenzar a explorar.",
+    "notes": "Experiencia multimedia y modo cocina paso a paso",
     "changes": [
-      "La primera apertura de esta experiencia muestra una pantalla completa en cuatro pasos.",
-      "El perfil reúne objetivo, cantidad de personas, tiempo disponible y preferencias alimentarias.",
-      "Al finalizar se guardan los datos y la app redirige a Explorar con recomendaciones activas.",
-      "Los perfiles existentes se precargan para conservar sus datos y la bienvenida solo se completa una vez."
+      "Nueva presentación visual en todas las recetas, con imágenes del libro donde están disponibles.",
+      "Modo cocina paso a paso con ingredientes marcables, progreso guardado y temporizadores.",
+      "Recomendaciones más precisas por horario, preferencias y favoritos.",
+      "Descarga diferida de imágenes con caché de hasta 150 MB y controles de uso sin conexión.",
+      "Búsqueda mejorada por varias palabras y filtros alimentarios más fiables."
     ],
     "apk": {
-      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.1.7.apk",
-      "size": 4341060,
-      "sha256": "b2e24eb6e91cd772b7525b439f7595a64908c19e139ed1b4a36f5692214c9a31",
+      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.2.0.apk",
+      "size": 4459318,
+      "sha256": "ae6f02622d2b1a3273234246f05689c76399671f762299fe72065288583ae204",
       "signature": ""
     },
     "webBundle": null,
     "history": [
+      {
+        "versionName": "1.2.0",
+        "versionCode": 10,
+        "publishedAt": "2026-11-08T23:46:31.278Z",
+        "title": "Experiencia multimedia y modo cocina paso a paso",
+        "changes": [
+          "Nueva presentación visual en todas las recetas, con imágenes del libro donde están disponibles.",
+          "Modo cocina paso a paso con ingredientes marcables, progreso guardado y temporizadores.",
+          "Recomendaciones más precisas por horario, preferencias y favoritos.",
+          "Descarga diferida de imágenes con caché de hasta 150 MB y controles de uso sin conexión.",
+          "Búsqueda mejorada por varias palabras y filtros alimentarios más fiables."
+        ]
+      },
       {
         "versionName": "1.1.7",
         "versionCode": 9,
