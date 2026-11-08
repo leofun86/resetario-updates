@@ -13,7 +13,8 @@
       "Los iconos de la barra superior de Android ahora se muestran oscuros sobre el fondo claro.",
       "Las nuevas versiones se presentan en un modal con tamaño, tipo y lista de novedades.",
       "Se agregó un historial detallado de actualizaciones dentro del perfil.",
-      "Se corrigió la lectura del tamaño de los archivos para futuras descargas automáticas."
+      "Se corrigió la lectura del tamaño de los archivos para futuras descargas automáticas.",
+      "La barra superior reúne RECETARIO y Energía en tu plato, sin repetir la marca en Explorar."
     ],
     "apk": {
       "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.1.2.apk",
@@ -21,7 +22,14 @@
       "sha256": "6f55eaa215cace2f975f1afea0edeed26a3c370b31ff36824ff3f33a83217243",
       "signature": ""
     },
-    "webBundle": null,
+    "webBundle": {
+      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/web-bundle-1.zip",
+      "size": 139902,
+      "sha256": "43bfa180d73b3c8584b6606f3df87975bc72d0e12920f4bb74fbc7095c672f06",
+      "signature": "",
+      "version": 1,
+      "minimumNativeVersionCode": 4
+    },
     "history": [
       {
         "versionName": "1.1.2",
@@ -32,7 +40,8 @@
           "Iconos oscuros y legibles en las barras del sistema Android.",
           "Modal informativo al detectar una actualización.",
           "Historial de versiones con el detalle de cada cambio.",
-          "Lectura compatible de tamaños numéricos enviados por Capacitor."
+          "Lectura compatible de tamaños numéricos enviados por Capacitor.",
+          "Identidad unificada en la barra superior, sin título duplicado en Explorar."
         ]
       },
       {
