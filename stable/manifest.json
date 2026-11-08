@@ -3,27 +3,37 @@
   "algorithm": "SHA256withECDSA",
   "payload": {
     "channel": "stable",
-    "publishedAt": "2026-11-08T22:00:00.000Z",
-    "versionName": "1.1.3",
-    "versionCode": 5,
+    "publishedAt": "2026-11-08T22:33:35.162Z",
+    "versionName": "1.1.4",
+    "versionCode": 6,
     "minimumSupportedVersionCode": 4,
     "required": false,
-    "notes": "Búsqueda más limpia, impresión A4 y un instalador de actualizaciones más compatible con Android.",
+    "notes": "Se corrigieron las acciones de compartir e imprimir recetas en Android.",
     "changes": [
-      "La cabecera de Buscar se reemplazó por un icono de búsqueda culinaria más simple.",
-      "Cada receta incorpora un botón de impresión.",
-      "Un único template dinámico genera una composición A4 con los datos de la receta abierta.",
-      "Android crea un PDF temporal y permite elegir Canon PRINT u otra app compatible.",
-      "Las actualizaciones ahora se abren con el instalador nativo de Android para evitar errores de instalación."
+      "Compartir abre el selector nativo de Android con el contenido completo de la receta.",
+      "Se eliminó la dirección interna localhost del contenido compartido.",
+      "Imprimir abre el panel de impresión de Android con la receta en formato A4.",
+      "El template de impresión continúa generándose dinámicamente para la receta abierta."
     ],
     "apk": {
-      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.1.3.apk",
-      "size": 4331664,
-      "sha256": "229fd1a643d86a247db38e075c1bad3a15bf7a7c662f0057e90c9659caae36ce",
+      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.1.4.apk",
+      "size": 4330236,
+      "sha256": "3273a1da21f283ac299e8568f4d5f2d1cdcfdc7988a6f91665288ea965b3dd64",
       "signature": ""
     },
     "webBundle": null,
     "history": [
+      {
+        "versionName": "1.1.4",
+        "versionCode": 6,
+        "publishedAt": "2026-11-08T22:33:35.162Z",
+        "title": "Compartir e imprimir en Android",
+        "changes": [
+          "Selector nativo para compartir la receta completa.",
+          "Contenido compartido sin rutas internas de la aplicación.",
+          "Panel de impresión Android con papel A4 y el template dinámico de cada receta."
+        ]
+      },
       {
         "versionName": "1.1.3",
         "versionCode": 5,
