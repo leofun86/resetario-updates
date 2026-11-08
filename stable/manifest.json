@@ -3,25 +3,38 @@
   "algorithm": "SHA256withECDSA",
   "payload": {
     "channel": "stable",
-    "publishedAt": "2026-11-08T22:40:39.566Z",
-    "versionName": "1.1.5",
-    "versionCode": 7,
+    "publishedAt": "2026-11-08T22:59:26.374Z",
+    "versionName": "1.1.6",
+    "versionCode": 8,
     "minimumSupportedVersionCode": 4,
     "required": false,
-    "notes": "La impresión ahora genera un PDF A4 directamente en Android y permite abrirlo con una app compatible.",
+    "notes": "Nueva bienvenida guiada para crear el perfil personal antes de comenzar a explorar.",
     "changes": [
-      "El PDF se construye de forma nativa sin depender de una vista web ni del servicio de impresión del dispositivo.",
-      "El diseño A4 incluye cabecera, datos, ingredientes, preparación, tip y paginado automático.",
-      "Al terminar se abre el selector de aplicaciones para enviarlo a Canon PRINT u otra app compatible."
+      "La primera apertura sin perfil muestra una experiencia a pantalla completa en cuatro pasos.",
+      "El perfil reúne objetivo, cantidad de personas, tiempo disponible y preferencias alimentarias.",
+      "Al finalizar se guardan los datos y la app redirige a Explorar con recomendaciones activas.",
+      "Los perfiles existentes se conservan y no vuelven a mostrar la bienvenida."
     ],
     "apk": {
-      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.1.5.apk",
-      "size": 4335976,
-      "sha256": "f55b8ae5410cfe86d5c5fce6d2b3cecb38d24385e7176f31ef21ccbbb13873cf",
+      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.1.6.apk",
+      "size": 4340708,
+      "sha256": "5f1a6ce50165721323b38b05a9f9cfee60eddefac909a4709ebface1427ad2ab",
       "signature": ""
     },
     "webBundle": null,
     "history": [
+      {
+        "versionName": "1.1.6",
+        "versionCode": 8,
+        "publishedAt": "2026-11-08T22:59:26.374Z",
+        "title": "Creación guiada del perfil",
+        "changes": [
+          "Bienvenida a pantalla completa para quienes todavía no tienen perfil.",
+          "Cuatro pasos visuales con navegación clara y controles adaptados al móvil.",
+          "Redirección automática a Explorar con el mapa personal ya activo.",
+          "Los perfiles guardados previamente permanecen intactos."
+        ]
+      },
       {
         "versionName": "1.1.5",
         "versionCode": 7,
