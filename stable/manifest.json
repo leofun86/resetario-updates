@@ -8,17 +8,18 @@
     "versionCode": 5,
     "minimumSupportedVersionCode": 4,
     "required": false,
-    "notes": "Búsqueda más limpia e impresión A4 reutilizable para todas las recetas.",
+    "notes": "Búsqueda más limpia, impresión A4 y un instalador de actualizaciones más compatible con Android.",
     "changes": [
       "La cabecera de Buscar se reemplazó por un icono de búsqueda culinaria más simple.",
       "Cada receta incorpora un botón de impresión.",
       "Un único template dinámico genera una composición A4 con los datos de la receta abierta.",
-      "Android crea un PDF temporal y permite elegir Canon PRINT u otra app compatible."
+      "Android crea un PDF temporal y permite elegir Canon PRINT u otra app compatible.",
+      "Las actualizaciones ahora se abren con el instalador nativo de Android para evitar errores de instalación."
     ],
     "apk": {
       "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.1.3.apk",
       "size": 4331664,
-      "sha256": "baf3fb88f5b309b323b2dabeaec5e9b9b29e4b3ba6699b764d366288f8bdfbb8",
+      "sha256": "229fd1a643d86a247db38e075c1bad3a15bf7a7c662f0057e90c9659caae36ce",
       "signature": ""
     },
     "webBundle": null,
@@ -32,7 +33,8 @@
           "Icono culinario compacto en la sección Buscar.",
           "Template A4 único inspirado en el lenguaje editorial del libro.",
           "PDF temporal con ingredientes, preparación, datos y consejo de la receta abierta.",
-          "Selector de aplicaciones compatibles para imprimir o compartir el PDF."
+          "Selector de aplicaciones compatibles para imprimir o compartir el PDF.",
+          "Instalador nativo de Android para aplicar futuras actualizaciones con mayor compatibilidad."
         ]
       },
       {
