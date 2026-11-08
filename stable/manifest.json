@@ -3,14 +3,57 @@
   "algorithm": "SHA256withECDSA",
   "payload": {
     "channel": "stable",
-    "publishedAt": "2026-11-08T19:53:00.000Z",
-    "versionName": "1.1.1",
-    "versionCode": 3,
+    "publishedAt": "2026-11-08T20:38:00.000Z",
+    "versionName": "1.1.2",
+    "versionCode": 4,
     "minimumSupportedVersionCode": 3,
     "required": false,
-    "notes": "Canal público de actualizaciones habilitado.",
-    "apk": null,
-    "webBundle": null
+    "notes": "Mejor contraste en Android y una experiencia de actualización más clara.",
+    "changes": [
+      "Los iconos de la barra superior de Android ahora se muestran oscuros sobre el fondo claro.",
+      "Las nuevas versiones se presentan en un modal con tamaño, tipo y lista de novedades.",
+      "Se agregó un historial detallado de actualizaciones dentro del perfil."
+    ],
+    "apk": {
+      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.1.2.apk",
+      "size": 4353275,
+      "sha256": "72bc1dafb5c76cb52c17e766987686d2393ec957e15e569a3a7948e7e6169b12",
+      "signature": ""
+    },
+    "webBundle": null,
+    "history": [
+      {
+        "versionName": "1.1.2",
+        "versionCode": 4,
+        "publishedAt": "2026-11-08T20:38:00.000Z",
+        "title": "Contraste nativo y novedades de actualización",
+        "changes": [
+          "Iconos oscuros y legibles en las barras del sistema Android.",
+          "Modal informativo al detectar una actualización.",
+          "Historial de versiones con el detalle de cada cambio."
+        ]
+      },
+      {
+        "versionName": "1.1.1",
+        "versionCode": 3,
+        "publishedAt": "2026-11-08T19:53:00.000Z",
+        "title": "Canal público de actualizaciones",
+        "changes": [
+          "Se corrigió el error HTTP 404 del repositorio privado.",
+          "Se habilitó el canal público accesible desde Android."
+        ]
+      },
+      {
+        "versionName": "1.1.0",
+        "versionCode": 2,
+        "publishedAt": "2026-11-08T00:00:00.000Z",
+        "title": "Perfil y recomendaciones",
+        "changes": [
+          "Mapa personal de preferencias alimentarias.",
+          "Recomendaciones por horario combinadas con favoritos."
+        ]
+      }
+    ]
   },
   "signature": ""
 }
