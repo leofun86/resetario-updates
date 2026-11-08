@@ -3,34 +3,38 @@
   "algorithm": "SHA256withECDSA",
   "payload": {
     "channel": "stable",
-    "publishedAt": "2026-11-08T20:38:00.000Z",
-    "versionName": "1.1.2",
-    "versionCode": 4,
-    "minimumSupportedVersionCode": 3,
+    "publishedAt": "2026-11-08T22:00:00.000Z",
+    "versionName": "1.1.3",
+    "versionCode": 5,
+    "minimumSupportedVersionCode": 4,
     "required": false,
-    "notes": "Mejor contraste en Android y una experiencia de actualización más clara.",
+    "notes": "Búsqueda más limpia e impresión A4 reutilizable para todas las recetas.",
     "changes": [
-      "Los iconos de la barra superior de Android ahora se muestran oscuros sobre el fondo claro.",
-      "Las nuevas versiones se presentan en un modal con tamaño, tipo y lista de novedades.",
-      "Se agregó un historial detallado de actualizaciones dentro del perfil.",
-      "Se corrigió la lectura del tamaño de los archivos para futuras descargas automáticas.",
-      "La barra superior reúne RECETARIO y Energía en tu plato, sin repetir la marca en Explorar."
+      "La cabecera de Buscar se reemplazó por un icono de búsqueda culinaria más simple.",
+      "Cada receta incorpora un botón de impresión.",
+      "Un único template dinámico genera una composición A4 con los datos de la receta abierta.",
+      "Android crea un PDF temporal y permite elegir Canon PRINT u otra app compatible."
     ],
     "apk": {
-      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.1.2.apk",
-      "size": 4353275,
-      "sha256": "6f55eaa215cace2f975f1afea0edeed26a3c370b31ff36824ff3f33a83217243",
+      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.1.3.apk",
+      "size": 4331664,
+      "sha256": "baf3fb88f5b309b323b2dabeaec5e9b9b29e4b3ba6699b764d366288f8bdfbb8",
       "signature": ""
     },
-    "webBundle": {
-      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/web-bundle-1.zip",
-      "size": 139902,
-      "sha256": "43bfa180d73b3c8584b6606f3df87975bc72d0e12920f4bb74fbc7095c672f06",
-      "signature": "",
-      "version": 1,
-      "minimumNativeVersionCode": 4
-    },
+    "webBundle": null,
     "history": [
+      {
+        "versionName": "1.1.3",
+        "versionCode": 5,
+        "publishedAt": "2026-11-08T22:00:00.000Z",
+        "title": "Búsqueda culinaria e impresión A4",
+        "changes": [
+          "Icono culinario compacto en la sección Buscar.",
+          "Template A4 único inspirado en el lenguaje editorial del libro.",
+          "PDF temporal con ingredientes, preparación, datos y consejo de la receta abierta.",
+          "Selector de aplicaciones compatibles para imprimir o compartir el PDF."
+        ]
+      },
       {
         "versionName": "1.1.2",
         "versionCode": 4,
