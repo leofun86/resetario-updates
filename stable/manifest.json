@@ -3,26 +3,37 @@
   "algorithm": "SHA256withECDSA",
   "payload": {
     "channel": "stable",
-    "publishedAt": "2026-11-08T22:59:26.374Z",
-    "versionName": "1.1.6",
-    "versionCode": 8,
+    "publishedAt": "2026-11-08T23:02:17.000Z",
+    "versionName": "1.1.7",
+    "versionCode": 9,
     "minimumSupportedVersionCode": 4,
     "required": false,
-    "notes": "Nueva bienvenida guiada para crear el perfil personal antes de comenzar a explorar.",
+    "notes": "Bienvenida guiada única para crear o confirmar el perfil antes de comenzar a explorar.",
     "changes": [
-      "La primera apertura sin perfil muestra una experiencia a pantalla completa en cuatro pasos.",
+      "La primera apertura de esta experiencia muestra una pantalla completa en cuatro pasos.",
       "El perfil reúne objetivo, cantidad de personas, tiempo disponible y preferencias alimentarias.",
       "Al finalizar se guardan los datos y la app redirige a Explorar con recomendaciones activas.",
-      "Los perfiles existentes se conservan y no vuelven a mostrar la bienvenida."
+      "Los perfiles existentes se precargan para conservar sus datos y la bienvenida solo se completa una vez."
     ],
     "apk": {
-      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.1.6.apk",
-      "size": 4340708,
-      "sha256": "5f1a6ce50165721323b38b05a9f9cfee60eddefac909a4709ebface1427ad2ab",
+      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.1.7.apk",
+      "size": 4341060,
+      "sha256": "b2e24eb6e91cd772b7525b439f7595a64908c19e139ed1b4a36f5692214c9a31",
       "signature": ""
     },
     "webBundle": null,
     "history": [
+      {
+        "versionName": "1.1.7",
+        "versionCode": 9,
+        "publishedAt": "2026-11-08T23:02:17.000Z",
+        "title": "Bienvenida única con datos precargados",
+        "changes": [
+          "La creación guiada aparece una vez tras instalar esta nueva experiencia.",
+          "Si ya había un perfil, sus respuestas aparecen seleccionadas para revisarlas o confirmarlas.",
+          "Al terminar, la bienvenida no vuelve a interrumpir las aperturas siguientes."
+        ]
+      },
       {
         "versionName": "1.1.6",
         "versionCode": 8,
