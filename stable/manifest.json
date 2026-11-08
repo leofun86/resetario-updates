@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "algorithm": "SHA256withECDSA",
+  "payload": {
+    "channel": "stable",
+    "publishedAt": "2026-11-08T19:53:00.000Z",
+    "versionName": "1.1.1",
+    "versionCode": 3,
+    "minimumSupportedVersionCode": 3,
+    "required": false,
+    "notes": "Canal público de actualizaciones habilitado.",
+    "apk": null,
+    "webBundle": null
+  },
+  "signature": ""
+}
