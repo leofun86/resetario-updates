@@ -3,26 +3,36 @@
   "algorithm": "SHA256withECDSA",
   "payload": {
     "channel": "stable",
-    "publishedAt": "2026-11-08T22:33:35.162Z",
-    "versionName": "1.1.4",
-    "versionCode": 6,
+    "publishedAt": "2026-11-08T22:40:39.566Z",
+    "versionName": "1.1.5",
+    "versionCode": 7,
     "minimumSupportedVersionCode": 4,
     "required": false,
-    "notes": "Se corrigieron las acciones de compartir e imprimir recetas en Android.",
+    "notes": "La impresión ahora genera un PDF A4 directamente en Android y permite abrirlo con una app compatible.",
     "changes": [
-      "Compartir abre el selector nativo de Android con el contenido completo de la receta.",
-      "Se eliminó la dirección interna localhost del contenido compartido.",
-      "Imprimir abre el panel de impresión de Android con la receta en formato A4.",
-      "El template de impresión continúa generándose dinámicamente para la receta abierta."
+      "El PDF se construye de forma nativa sin depender de una vista web ni del servicio de impresión del dispositivo.",
+      "El diseño A4 incluye cabecera, datos, ingredientes, preparación, tip y paginado automático.",
+      "Al terminar se abre el selector de aplicaciones para enviarlo a Canon PRINT u otra app compatible."
     ],
     "apk": {
-      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.1.4.apk",
-      "size": 4330236,
-      "sha256": "3273a1da21f283ac299e8568f4d5f2d1cdcfdc7988a6f91665288ea965b3dd64",
+      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.1.5.apk",
+      "size": 4335976,
+      "sha256": "f55b8ae5410cfe86d5c5fce6d2b3cecb38d24385e7176f31ef21ccbbb13873cf",
       "signature": ""
     },
     "webBundle": null,
     "history": [
+      {
+        "versionName": "1.1.5",
+        "versionCode": 7,
+        "publishedAt": "2026-11-08T22:40:39.566Z",
+        "title": "PDF A4 generado directamente en Android",
+        "changes": [
+          "Generación nativa del archivo PDF de cada receta.",
+          "Diseño editorial A4 reutilizable con múltiples páginas cuando sea necesario.",
+          "Selector de aplicaciones compatible con Canon PRINT y lectores de PDF."
+        ]
+      },
       {
         "versionName": "1.1.4",
         "versionCode": 6,
