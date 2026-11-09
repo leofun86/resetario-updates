@@ -3,23 +3,32 @@
   "algorithm": "SHA256withECDSA",
   "payload": {
     "channel": "stable",
-    "publishedAt": "2026-11-09T16:57:12.341Z",
-    "versionName": "1.2.6",
-    "versionCode": 16,
+    "publishedAt": "2026-11-09T18:59:29.404Z",
+    "versionName": "1.2.7",
+    "versionCode": 17,
     "minimumSupportedVersionCode": 4,
     "required": false,
-    "notes": "Correcciones de desplazamiento horizontal y mejoras en la detección y visualización de actualizaciones.",
+    "notes": "Corrección de la verificación de firmas y mensajes claros del sistema de actualizaciones.",
     "changes": [
-      "Correcciones de desplazamiento horizontal y mejoras en la detección y visualización de actualizaciones."
+      "Corrección de la verificación de firmas y mensajes claros del sistema de actualizaciones."
     ],
     "apk": {
-      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.2.6.apk",
-      "size": 3447550,
-      "sha256": "09b8be4329e4655b23cb1f69905ee5e88db1b1cdffcab63d373710838f50010c",
-      "signature": "MEQCIDs+6WVhuLYCiXeiEQh+1sWrJBdm5hFpWTufA/8k4MRHAiBFYTUBlde9tc9CQygn9LYm3gYVG8IZTPgq+eULeT8DJw=="
+      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.2.7.apk",
+      "size": 3447782,
+      "sha256": "841372e8fa9bab8bb1420c09239d96bc8177757711626c2fa2a191fbd61b72a6",
+      "signature": "MEUCIAlyaTu7sL+ItenFy456uPqaHH/356cWzW42q1XVtXCHAiEA4WwJ9qk2E0jqG2SHxpuX3rXyX1AkIxrki+dsSXgEZBU="
     },
     "webBundle": null,
     "history": [
+      {
+        "versionName": "1.2.7",
+        "versionCode": 17,
+        "publishedAt": "2026-11-09T18:59:29.404Z",
+        "title": "Corrección de la verificación de firmas y mensajes claros del sistema de actualizaciones.",
+        "changes": [
+          "Corrección de la verificación de firmas y mensajes claros del sistema de actualizaciones."
+        ]
+      },
       {
         "versionName": "1.2.6",
         "versionCode": 16,
@@ -198,5 +207,5 @@
       }
     ]
   },
-  "signature": "MEYCIQCZ2UGXhHQMyKp/2RQxRHfTrjMfl7HL7kwtwbflDTJ56AIhALqzAhKOp9KH9/S9Gb6Q2XPHxpKVImSaJuTbVRsVxr53"
+  "signature": "MEUCIQDXKOEsJNJV/OQ/DTtAyszLQrM39/nqTql0zAcb6iMoxgIgYVJZCC3N/ZT5JUBqBjXUN0YwHf2cjq3rjFa74SaMMJs="
 }
