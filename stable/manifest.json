@@ -3,26 +3,38 @@
   "algorithm": "SHA256withECDSA",
   "payload": {
     "channel": "stable",
-    "publishedAt": "2026-11-09T04:10:28.788Z",
-    "versionName": "1.2.4",
-    "versionCode": 14,
+    "publishedAt": "2026-11-09T06:44:31Z",
+    "versionName": "1.2.5",
+    "versionCode": 15,
     "minimumSupportedVersionCode": 4,
     "required": false,
-    "notes": "Corrección del video paso a paso",
+    "notes": "Nueva identidad Galería botánica",
     "changes": [
-      "Se reemplazó el video defectuoso que aparecía negro o con una duración incorrecta.",
-      "El video corregido dura exactamente 24 segundos y muestra los cuatro pasos de la receta.",
-      "Se incorporó audio AAC silencioso y un perfil H.264 compatible con Android.",
-      "El catálogo multimedia usa una dirección nueva para evitar copias antiguas almacenadas en caché."
+      "Nueva identidad visual Galería botánica en Explorar, Buscar, Favoritos y recomendaciones.",
+      "Recetas, perfil, actualizaciones y modo cocina comparten superficies orgánicas y fotografía protagonista.",
+      "La barra de estado Android mantiene contraste y legibilidad con iconos claros.",
+      "Se conservan las 522 recetas, perfiles, favoritos y progreso de cocina."
     ],
     "apk": {
-      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.2.4.apk",
-      "size": 4465390,
-      "sha256": "abe4379d5c2a6a71e5e22068b1b4b4a6e24622c3cb04f5dda7fcbd6c6cc53ab0",
+      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.2.5.apk",
+      "size": 4468914,
+      "sha256": "b9989a46742553c4fdb5e63320448f5cc70d0cc4f11ca222ee23c725248a4810",
       "signature": ""
     },
     "webBundle": null,
     "history": [
+      {
+        "versionName": "1.2.5",
+        "versionCode": 15,
+        "publishedAt": "2026-11-09T06:44:31Z",
+        "title": "Nueva identidad Galería botánica",
+        "changes": [
+          "Nueva identidad visual Galería botánica en Explorar, Buscar, Favoritos y recomendaciones.",
+          "Recetas, perfil, actualizaciones y modo cocina comparten superficies orgánicas y fotografía protagonista.",
+          "La barra de estado Android mantiene contraste y legibilidad con iconos claros.",
+          "Se conservan las 522 recetas, perfiles, favoritos y progreso de cocina."
+        ]
+      },
       {
         "versionName": "1.2.4",
         "versionCode": 14,
