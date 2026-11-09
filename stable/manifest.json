@@ -3,26 +3,32 @@
   "algorithm": "SHA256withECDSA",
   "payload": {
     "channel": "stable",
-    "publishedAt": "2026-11-09T06:44:31Z",
-    "versionName": "1.2.5",
-    "versionCode": 15,
+    "publishedAt": "2026-11-09T16:57:12.341Z",
+    "versionName": "1.2.6",
+    "versionCode": 16,
     "minimumSupportedVersionCode": 4,
     "required": false,
-    "notes": "Nueva identidad Galería botánica",
+    "notes": "Correcciones de desplazamiento horizontal y mejoras en la detección y visualización de actualizaciones.",
     "changes": [
-      "Nueva identidad visual Galería botánica en Explorar, Buscar, Favoritos y recomendaciones.",
-      "Recetas, perfil, actualizaciones y modo cocina comparten superficies orgánicas y fotografía protagonista.",
-      "La barra de estado Android mantiene contraste y legibilidad con iconos claros.",
-      "Se conservan las 522 recetas, perfiles, favoritos y progreso de cocina."
+      "Correcciones de desplazamiento horizontal y mejoras en la detección y visualización de actualizaciones."
     ],
     "apk": {
-      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.2.5.apk",
-      "size": 4468914,
-      "sha256": "b9989a46742553c4fdb5e63320448f5cc70d0cc4f11ca222ee23c725248a4810",
-      "signature": ""
+      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.2.6.apk",
+      "size": 3447550,
+      "sha256": "09b8be4329e4655b23cb1f69905ee5e88db1b1cdffcab63d373710838f50010c",
+      "signature": "MEQCIDs+6WVhuLYCiXeiEQh+1sWrJBdm5hFpWTufA/8k4MRHAiBFYTUBlde9tc9CQygn9LYm3gYVG8IZTPgq+eULeT8DJw=="
     },
     "webBundle": null,
     "history": [
+      {
+        "versionName": "1.2.6",
+        "versionCode": 16,
+        "publishedAt": "2026-11-09T16:57:12.341Z",
+        "title": "Correcciones de desplazamiento horizontal y mejoras en la detección y visualización de actualizaciones.",
+        "changes": [
+          "Correcciones de desplazamiento horizontal y mejoras en la detección y visualización de actualizaciones."
+        ]
+      },
       {
         "versionName": "1.2.5",
         "versionCode": 15,
@@ -192,5 +198,5 @@
       }
     ]
   },
-  "signature": ""
+  "signature": "MEYCIQCZ2UGXhHQMyKp/2RQxRHfTrjMfl7HL7kwtwbflDTJ56AIhALqzAhKOp9KH9/S9Gb6Q2XPHxpKVImSaJuTbVRsVxr53"
 }
