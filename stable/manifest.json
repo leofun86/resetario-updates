@@ -3,27 +3,40 @@
   "algorithm": "SHA256withECDSA",
   "payload": {
     "channel": "stable",
-    "publishedAt": "2026-11-09T00:05:25.875Z",
-    "versionName": "1.2.1",
-    "versionCode": 11,
+    "publishedAt": "2026-11-09T00:07:14.216Z",
+    "versionName": "1.2.2",
+    "versionCode": 12,
     "minimumSupportedVersionCode": 4,
     "required": false,
-    "notes": "Modo cocina corregido y primer lote fotográfico",
+    "notes": "Imágenes bajo demanda y correcciones de cocina",
     "changes": [
-      "El modo cocina ahora permite desplazarse sin que los controles cubran ingredientes o pasos.",
-      "Los botones de navegación quedan al final del contenido y respetan el área segura de Android.",
-      "La recomendación principal separa correctamente la imagen y el título en pantallas móviles.",
-      "Se eliminan las falsas vistas editoriales: solo se muestra una imagen cuando existe una fotografía real o ilustrativa revisada.",
-      "Primer lote de fotografías fieles a los ingredientes y catálogo remoto para incorporar nuevas imágenes sin reinstalar la app."
+      "Las fotografías se descargan únicamente cuando entran en pantalla o se abre su receta.",
+      "Las imágenes descargadas quedan en caché y no vuelven a consumirse en cada visita.",
+      "El modo cocina permite desplazarse sin superponer botones, ingredientes ni pasos.",
+      "La recomendación móvil separa fotografía y título correctamente.",
+      "Las fotografías nuevas se publican por lotes revisados en el catálogo remoto."
     ],
     "apk": {
-      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.2.1.apk",
+      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.2.2.apk",
       "size": 4460522,
-      "sha256": "a6a9c6655e6406e375dc5b2cca11b88cd7f9abddaba2152d171c35b54163b315",
+      "sha256": "8525101d3405a97d58598fe097ced1473ff5937be8e673c768fb412e4963636d",
       "signature": ""
     },
     "webBundle": null,
     "history": [
+      {
+        "versionName": "1.2.2",
+        "versionCode": 12,
+        "publishedAt": "2026-11-09T00:07:14.216Z",
+        "title": "Imágenes bajo demanda y correcciones de cocina",
+        "changes": [
+          "Las fotografías se descargan únicamente cuando entran en pantalla o se abre su receta.",
+          "Las imágenes descargadas quedan en caché y no vuelven a consumirse en cada visita.",
+          "El modo cocina permite desplazarse sin superponer botones, ingredientes ni pasos.",
+          "La recomendación móvil separa fotografía y título correctamente.",
+          "Las fotografías nuevas se publican por lotes revisados en el catálogo remoto."
+        ]
+      },
       {
         "versionName": "1.2.1",
         "versionCode": 11,
