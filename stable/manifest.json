@@ -3,27 +3,40 @@
   "algorithm": "SHA256withECDSA",
   "payload": {
     "channel": "stable",
-    "publishedAt": "2026-11-08T23:46:31.278Z",
-    "versionName": "1.2.0",
-    "versionCode": 10,
+    "publishedAt": "2026-11-09T00:05:25.875Z",
+    "versionName": "1.2.1",
+    "versionCode": 11,
     "minimumSupportedVersionCode": 4,
     "required": false,
-    "notes": "Experiencia multimedia y modo cocina paso a paso",
+    "notes": "Modo cocina corregido y primer lote fotográfico",
     "changes": [
-      "Nueva presentación visual en todas las recetas, con imágenes del libro donde están disponibles.",
-      "Modo cocina paso a paso con ingredientes marcables, progreso guardado y temporizadores.",
-      "Recomendaciones más precisas por horario, preferencias y favoritos.",
-      "Descarga diferida de imágenes con caché de hasta 150 MB y controles de uso sin conexión.",
-      "Búsqueda mejorada por varias palabras y filtros alimentarios más fiables."
+      "El modo cocina ahora permite desplazarse sin que los controles cubran ingredientes o pasos.",
+      "Los botones de navegación quedan al final del contenido y respetan el área segura de Android.",
+      "La recomendación principal separa correctamente la imagen y el título en pantallas móviles.",
+      "Se eliminan las falsas vistas editoriales: solo se muestra una imagen cuando existe una fotografía real o ilustrativa revisada.",
+      "Primer lote de fotografías fieles a los ingredientes y catálogo remoto para incorporar nuevas imágenes sin reinstalar la app."
     ],
     "apk": {
-      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.2.0.apk",
-      "size": 4459318,
-      "sha256": "ae6f02622d2b1a3273234246f05689c76399671f762299fe72065288583ae204",
+      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.2.1.apk",
+      "size": 4460522,
+      "sha256": "a6a9c6655e6406e375dc5b2cca11b88cd7f9abddaba2152d171c35b54163b315",
       "signature": ""
     },
     "webBundle": null,
     "history": [
+      {
+        "versionName": "1.2.1",
+        "versionCode": 11,
+        "publishedAt": "2026-11-09T00:05:25.875Z",
+        "title": "Modo cocina corregido y primer lote fotográfico",
+        "changes": [
+          "El modo cocina ahora permite desplazarse sin que los controles cubran ingredientes o pasos.",
+          "Los botones de navegación quedan al final del contenido y respetan el área segura de Android.",
+          "La recomendación principal separa correctamente la imagen y el título en pantallas móviles.",
+          "Se eliminan las falsas vistas editoriales: solo se muestra una imagen cuando existe una fotografía real o ilustrativa revisada.",
+          "Primer lote de fotografías fieles a los ingredientes y catálogo remoto para incorporar nuevas imágenes sin reinstalar la app."
+        ]
+      },
       {
         "versionName": "1.2.0",
         "versionCode": 10,
