@@ -3,23 +3,32 @@
   "algorithm": "SHA256withECDSA",
   "payload": {
     "channel": "stable",
-    "publishedAt": "2026-11-09T18:59:29.404Z",
-    "versionName": "1.2.7",
-    "versionCode": 17,
+    "publishedAt": "2026-11-12T03:55:20.415Z",
+    "versionName": "1.2.8",
+    "versionCode": 18,
     "minimumSupportedVersionCode": 4,
     "required": false,
-    "notes": "Corrección de la verificación de firmas y mensajes claros del sistema de actualizaciones.",
+    "notes": "Nueva configuración organizada en secciones, acceso con icono de tuerca, buzón privado de feedback y nuevo icono culinario de la app.",
     "changes": [
-      "Corrección de la verificación de firmas y mensajes claros del sistema de actualizaciones."
+      "Nueva configuración organizada en secciones, acceso con icono de tuerca, buzón privado de feedback y nuevo icono culinario de la app."
     ],
     "apk": {
-      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.2.7.apk",
-      "size": 3447782,
-      "sha256": "841372e8fa9bab8bb1420c09239d96bc8177757711626c2fa2a191fbd61b72a6",
-      "signature": "MEUCIAlyaTu7sL+ItenFy456uPqaHH/356cWzW42q1XVtXCHAiEA4WwJ9qk2E0jqG2SHxpuX3rXyX1AkIxrki+dsSXgEZBU="
+      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.2.8.apk",
+      "size": 4133726,
+      "sha256": "a88c27964e5e4d53e8677555b69b2ffa313313a66ebb849d70eb49074e494e34",
+      "signature": "MEUCIQCL98RjK1MNRy+Rgr4I7qVnpIOLhKgtRW1bMHp17jBOGwIgcXWQOjmbvn/GbwFxHj8y0Mb0kJc3OlOe7UxnEoVrjcs="
     },
     "webBundle": null,
     "history": [
+      {
+        "versionName": "1.2.8",
+        "versionCode": 18,
+        "publishedAt": "2026-11-12T03:55:20.415Z",
+        "title": "Nueva configuración organizada en secciones, acceso con icono de tuerca, buzón privado de feedback y nuevo icono culinario de la app.",
+        "changes": [
+          "Nueva configuración organizada en secciones, acceso con icono de tuerca, buzón privado de feedback y nuevo icono culinario de la app."
+        ]
+      },
       {
         "versionName": "1.2.7",
         "versionCode": 17,
@@ -207,5 +216,5 @@
       }
     ]
   },
-  "signature": "MEUCIQDXKOEsJNJV/OQ/DTtAyszLQrM39/nqTql0zAcb6iMoxgIgYVJZCC3N/ZT5JUBqBjXUN0YwHf2cjq3rjFa74SaMMJs="
+  "signature": "MEYCIQCD5hTDtkGbY1w/BkGtoKIO6Pa8DBcei2idFIzxAP3UQAIhAPSf4g1Jna8cm2gomO+735Pf2Ths3L1yT8ZleiJ0ZqSx"
 }
