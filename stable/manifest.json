@@ -3,23 +3,32 @@
   "algorithm": "SHA256withECDSA",
   "payload": {
     "channel": "stable",
-    "publishedAt": "2026-11-12T03:55:20.415Z",
-    "versionName": "1.2.8",
-    "versionCode": 18,
+    "publishedAt": "2026-11-19T16:03:46.172Z",
+    "versionName": "1.2.9",
+    "versionCode": 19,
     "minimumSupportedVersionCode": 4,
     "required": false,
-    "notes": "Nueva configuración organizada en secciones, acceso con icono de tuerca, buzón privado de feedback y nuevo icono culinario de la app.",
+    "notes": "Feedback privado en Cloudflare D1 y Worker, panel protegido por Access y nuevo canal de actualizaciones del NAS.",
     "changes": [
-      "Nueva configuración organizada en secciones, acceso con icono de tuerca, buzón privado de feedback y nuevo icono culinario de la app."
+      "Feedback privado en Cloudflare D1 y Worker, panel protegido por Access y nuevo canal de actualizaciones del NAS."
     ],
     "apk": {
-      "url": "https://raw.githubusercontent.com/leofun86/resetario-updates/main/downloads/energia-en-tu-plato-1.2.8.apk",
+      "url": "https://recetario-updates.tail9c9714.ts.net/downloads/energia-en-tu-plato-1.2.9.apk",
       "size": 4133726,
-      "sha256": "a88c27964e5e4d53e8677555b69b2ffa313313a66ebb849d70eb49074e494e34",
-      "signature": "MEUCIQCL98RjK1MNRy+Rgr4I7qVnpIOLhKgtRW1bMHp17jBOGwIgcXWQOjmbvn/GbwFxHj8y0Mb0kJc3OlOe7UxnEoVrjcs="
+      "sha256": "6a5a2ffc5f4cbf0c4bf2042081eb1ba1fa033a71789be0524ef25c427b9f417a",
+      "signature": "MEYCIQC58a5D+0hzFbKaUxfyw4DW3u72qv3ncYIH1qnNCZCRxgIhAIgLv/lE713lo1EIuudBjULW/juKGdiPbsuyBgHEWJrJ"
     },
     "webBundle": null,
     "history": [
+      {
+        "versionName": "1.2.9",
+        "versionCode": 19,
+        "publishedAt": "2026-11-19T16:03:46.172Z",
+        "title": "Feedback privado en Cloudflare D1 y Worker, panel protegido por Access y nuevo canal de actualizaciones del NAS.",
+        "changes": [
+          "Feedback privado en Cloudflare D1 y Worker, panel protegido por Access y nuevo canal de actualizaciones del NAS."
+        ]
+      },
       {
         "versionName": "1.2.8",
         "versionCode": 18,
@@ -216,5 +225,5 @@
       }
     ]
   },
-  "signature": "MEYCIQCD5hTDtkGbY1w/BkGtoKIO6Pa8DBcei2idFIzxAP3UQAIhAPSf4g1Jna8cm2gomO+735Pf2Ths3L1yT8ZleiJ0ZqSx"
+  "signature": "MEYCIQDLm/B0yEy+3C1UuXmeqreG3d9+jBE1vf0RpTTvsZbNwQIhAK8uLpc5qdgz/lcBmQqGdUxHmWipOKPt+YLsOnHvnpby"
 }
